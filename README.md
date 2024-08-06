@@ -25,7 +25,6 @@ npm run dev
 
 API Endpoints:
 ```bash
-GET /: Returns a simple "Hello Hono!" message.
 GET /loadTextEmbeddings: Loads and embeds text files.
 GET /loadPdfEmbeddings: Loads and embeds PDF files.
 POST /ask: Accepts a user query and returns an answer based on the embedded content.
