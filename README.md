@@ -17,11 +17,11 @@ This project integrates text and PDF files using LangChain, allowing users to qu
 ### Installation and Running
 
 Navigate to the `backend` directory, install the dependencies, and start the server:
-
+```bash
 cd backend
 npm install
 npm run dev
-
+```
 API Endpoints:
 GET /: Returns a simple "Hello Hono!" message.
 GET /loadTextEmbeddings: Loads and embeds text files.
