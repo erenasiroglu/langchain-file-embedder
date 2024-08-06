@@ -22,14 +22,18 @@ cd backend
 npm install
 npm run dev
 ```
+```bash
 API Endpoints:
 GET /: Returns a simple "Hello Hono!" message.
 GET /loadTextEmbeddings: Loads and embeds text files.
 GET /loadPdfEmbeddings: Loads and embeds PDF files.
 POST /ask: Accepts a user query and returns an answer based on the embedded content.
+```
 
+```bash
 Frontend UI:
 EmbedSection: Allows users to embed text or PDF files.
 QuerySection: Enables users to ask questions based on the embedded content.
 ResponseDisplay: Displays responses provided by the AI.
 The frontend uses axios for making API requests and styled-components for styling UI components.
+```
